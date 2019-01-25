@@ -13,7 +13,8 @@ void setup()  {
         ellipse(230, 180, 50, 50);
         ellipse(325, 300, 50, 50);
         ellipse(150, 300, 50, 50);
-        
-        
-        
+        PImage pepperoni = loadImage("mushroom.ppm.gif");
+image(pepperoni, 250, 275);        
+              PImage pepperoni = loadImage("mushroom.ppm.gif");
+image(pepperoni, 230, 230);     
     }
